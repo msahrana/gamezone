@@ -169,3 +169,8 @@
 .image-section{
     width: 50%;
 }
+.hover-img{
+    width: 1920px;
+    display: flex;
+    
+}
