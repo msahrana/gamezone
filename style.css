@@ -62,7 +62,7 @@
 .header-section{
     display: flex;
     width: 1920px;
-    height: 5927px;
+    height: 700px;
     background: #FFF;
     padding: 0 240px 0;
 }
@@ -109,3 +109,42 @@
     width: 901px;
     height: 700px;
 }
+
+.container{
+    width: 1920px;
+    height: 700px;
+}
+.online-contant{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-contant p{
+    
+}
+.online-contant h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-img{
+    display: flex;
+    padding-left: 240px;
+}
+.online-img p{
+    text-align: center
+}
+.image2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.image4{
+    padding-left: 30px;
+}
+
