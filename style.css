@@ -171,6 +171,45 @@
 }
 .hover-img{
     width: 1920px;
+    display: flex; 
+}
+.footer-section{
+    background-color: black;
+}
+.footer-section p{
+    width: 1920px;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+.footer-logo{
     display: flex;
-    
+    text-align: center;
+    padding: 80px 1000px 0px 800px;
+}
+.list-1 ,.list-2 > ul{
+    justify-content: space-between;
+    text-align: center;
+}
+.list-1 li ,.list-2 li{
+    display: flex;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 40px;
+}
+.icons{
+    display: flex;
+    margin-left: 40%;
+    margin-right: 40%;
+    justify-content: space-around;
+    gap: 40px;
+}
+.footer-section h5{
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 120px;
 }
