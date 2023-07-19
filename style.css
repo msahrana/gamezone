@@ -136,12 +136,12 @@
     margin-top: 100px;
     margin-bottom: 100px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap; 
 }
 .hover-img{
     padding-left: 240px;
     flex-direction: row;
-    
+    flex-wrap: wrap;
 }
 .online-contant h3{
     font-size: 48px;
@@ -190,9 +190,12 @@
 }
 .hover-img1{
     display: flex;
+    align-items: center;
 }
 .hover-img2{
     display: flex;
+    align-items: center;
+    margin-left: 200px;
 }
 .card{
     padding: 2px;
@@ -210,11 +213,13 @@ a {
     font-size: 20px;
     font-weight: 600;
 }
-a :hover{
-    background-color: #FFF;
+.card :hover{
     color: #F948B2;
-    border: 1px solid red;
+    border: 1px solid #F948B2; 
+    border-radius: 50px;
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
 }
+
 .footer-section{
     background-color: black;
 }
