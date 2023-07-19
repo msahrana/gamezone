@@ -110,13 +110,19 @@
     height: 700px;
 }
 
-.container{
+.container-section{
     width: 1920px;
     height: 700px;
 }
 .online-contant{
     text-align: center;
     margin-bottom: 40px;
+}
+.stylish-image{
+    width: 200px;height: 220px;
+    position: relative;
+    bottom: 300px;
+    right: 140px;
 }
 .text{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -126,7 +132,15 @@
     font-size: 48px;
     font-weight: 700;
 }
-.online-contant p{
+.hover-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.hover-img{
+    padding-left: 240px;
+    flex-direction: row;
     
 }
 .online-contant h3{
@@ -137,6 +151,7 @@
     display: flex;
     padding-left: 240px;
 }
+
 .online-img p{
     text-align: center
 }
@@ -173,6 +188,33 @@
     width: 1920px;
     display: flex; 
 }
+.hover-img1{
+    display: flex;
+}
+.hover-img2{
+    display: flex;
+}
+.card{
+    padding: 2px;
+    border-radius: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.card p{
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+a :hover{
+    background-color: #FFF;
+    color: #F948B2;
+    border: 1px solid red;
+}
 .footer-section{
     background-color: black;
 }
@@ -186,7 +228,7 @@
 .footer-logo{
     display: flex;
     text-align: center;
-    padding: 80px 1000px 0px 800px;
+    padding: 80px 1000px 0px 900px;
 }
 .list-1 ,.list-2 > ul{
     justify-content: space-between;
