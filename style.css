@@ -147,4 +147,25 @@
 .image4{
     padding-left: 30px;
 }
-
+.play-section{
+    width: 1920px;
+    height: 700px;
+    padding-left: 240px;
+    display: flex;
+}
+.play-contant{
+    width: 50%;
+    padding-left: 300px;
+}
+.play-contant h3{
+    text-align: justify;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.play-contant p{
+    text-align: justify;
+}
+.image-section{
+    width: 50%;
+}
