@@ -69,6 +69,7 @@
 .header-contant{
     width: 901px;
     height: 700px;
+    background-image: url("/images/Group\ 14.png");
 }
 
 .header-contant h1{
@@ -233,7 +234,7 @@ a {
 .footer-logo{
     display: flex;
     text-align: center;
-    padding: 80px 1000px 0px 900px;
+    padding: 80px 1000px 0px 800px;
 }
 .list-1 ,.list-2 > ul{
     justify-content: space-between;
